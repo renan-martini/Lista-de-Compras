@@ -1,0 +1,63 @@
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container > input {
+    width: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+#container > button {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container > button:hover{
+    cursor: pointer;
+}
+li > button {
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 5px;
+}
+li > button:hover {
+    background-color: rgb(141, 9, 9);
+    cursor: pointer;
+}
+li > input:hover{
+    cursor: pointer;
+}
+li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    text-align:left;
+    
+}
+li > label {
+    display: flex;
+    text-align: start;
+    margin-right: auto;
+    
+}
+.checked > label {
+    color: green;
+    text-decoration: line-through;
+}
