@@ -34,7 +34,6 @@ function checked(target){
 function remove(target){
     listaDeCompras.splice(target.id, 1)
     reload()
-    target.parentNode.remove()
 }
 function reload(){
     parentList.innerHTML = ""
