@@ -52,6 +52,7 @@ li{
     margin-left: auto;
     margin-right: auto;
     text-align:left;
+    width: 100%;
     
 }
 li > label {
