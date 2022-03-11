@@ -14,6 +14,7 @@ ul {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
 }
 #container > input {
     width: 244px;
